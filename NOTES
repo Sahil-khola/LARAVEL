@@ -1,0 +1,8 @@
+command for make laravel app:
+composer create-project laravel/laravel my-app
+
+
+command for run laravel app:
+php artisan serve
+
+back file in terminal command:
