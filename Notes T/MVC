@@ -1,0 +1,12 @@
+What is MVC?
+Model View Controller
+mvc is software design pattern that divides the application into three main parts: model, view, and controller
+
+Model:-
+write bussiness logic and database communication
+
+View:-
+The view is the user interface of the application. It is responsible for displaying the data to the user and handling user input.
+
+Controller:-
+handel user interaction and select view to render,it communicate between model and view
