@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get("/" ,function ()  {
+Route::get("/Home" ,function ()  {
   return view("home");
 });
 Route::get("Name/{name}" ,function ($name)  {
@@ -14,4 +14,6 @@ Route::get("/About", function () {
     return view("About");
 });
 
-// Route::view("About","home");
+route::redirect("/About","/Home");
+
+// Route::view("home","about");

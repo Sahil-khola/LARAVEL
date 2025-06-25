@@ -1,3 +1,12 @@
 What is Routing?
 Routing is a path for opening a Web page.
 
+Route::get("/",function(){
+    return view("home");
+})
+Route::get("Name/{name}",function($name){
+    echo $name
+    return view("home");
+})
+
+Route::view("Home","/";)
