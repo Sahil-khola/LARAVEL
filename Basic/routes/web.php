@@ -21,4 +21,3 @@ route::redirect("/About","/Home");
 
 // Route::view("home","about");
 
-Route::get("User",UserController::class,"getUser");
