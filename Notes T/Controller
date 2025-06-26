@@ -5,3 +5,8 @@ controller is a center unit that handel user request and model,view
 
 command Line for make controller
 php artisan make:controller UserController
+
+
+Route with controller
+
+Route::get("/",[Usercontroller::class,"getName"]);
