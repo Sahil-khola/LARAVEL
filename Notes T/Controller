@@ -1,0 +1,7 @@
+What is controller?
+controller comes under MVC architecure
+
+controller is a center unit that handel user request and model,view
+
+command Line for make controller
+php artisan make:controller UserController
