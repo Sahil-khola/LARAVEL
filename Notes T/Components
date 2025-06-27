@@ -1,0 +1,9 @@
+What is Components?
+a piece of code that can be reused in our project
+like function is written once and reused again and again,
+we can make component and reuse it again and again,
+
+make component with command line
+
+php artisan make:component name
+

@@ -1,2 +1,12 @@
 What is subview?
-subview is a include file we can connect two files by subview
+subview is a feature of laravel framework
+it is a way to include a file in another file
+
+how to use subview?
+@include('filename')
+
+how to use subview with data?
+@include('filename',["data"=>"value"])
+
+how to use subview with condition?
+@includeif('filename')

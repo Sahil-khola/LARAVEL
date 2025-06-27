@@ -1,0 +1,1 @@
+<h1>Welcome to <span class="text-indigo-600">Laravel</span></h1>
