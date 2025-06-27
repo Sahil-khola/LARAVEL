@@ -15,8 +15,11 @@ class UserController extends Controller
     }
     
     function OpenView(){
-        // return view("OpenView");
+        return view("OpenView");
         // return view("Admin.AdminLogin");
     }
 
+    function subview(){
+        return view("View");
+    }
 }

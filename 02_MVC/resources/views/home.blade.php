@@ -14,11 +14,7 @@
 <h1>other student</h1>
 @endif
 
-<div>
-    @while ($i = $students)
-        
-    @endwhile
-</div>
+
 
 
 <div>

@@ -24,3 +24,4 @@ Route::get('/', function () {
 // Route::get("user-login/{name}",[AdminController::class,"Userlogin"]);
 
 Route::get("/home",[AdminController::class,"Blade"]);
+Route::get("/subview",[UserController::class,"subview"]);
