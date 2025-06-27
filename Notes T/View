@@ -1,0 +1,7 @@
+What is View?
+The view is the user interface of the application. It is responsible for displaying the data to the user and handling user input.
+
+make view with command line
+
+php artisan make:view name
+
