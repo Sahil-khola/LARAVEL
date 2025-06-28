@@ -1,4 +1,4 @@
-<x-input 
+{{-- <x-input 
     name="Name" 
     label="Name" 
     type="text" 
@@ -15,4 +15,9 @@
     label="Password" 
     type="password" 
     placeholder="Enter your password" 
+/> --}}
+
+<x-message
+ projectName="Laravel Project"
+ projectMessage="This is laravel Project make by Sahil Khola"
 />
