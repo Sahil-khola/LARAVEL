@@ -1,3 +1,4 @@
 <div>
-    <!-- No surplus words or unnecessary actions. - Marcus Aurelius -->
+    <h3>{{$title}}</h3>
+    <p>{{$message}}</p>
 </div>

@@ -8,12 +8,12 @@ use Illuminate\View\Component;
 
 class messageBanner extends Component
 {
-    /**
-     * Create a new component instance.
-     */
-    public function __construct()
+    public $message;
+    public $title;
+    public function __construct($message,$title)
     {
-        //
+        $this->message = $message;
+        $this->title = $title;
     }
 
     /**

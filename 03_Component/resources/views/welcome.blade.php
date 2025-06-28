@@ -1,1 +1,3 @@
-<h1>Welcome to <span class="text-indigo-600">Laravel</span></h1>
+<x-message-banner message="logIn success", title="LogIn Page"/>
+<h1>Home Page</h1>
+<x-message-banner message="SignUp success", title="SingUp Page"/>
