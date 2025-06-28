@@ -11,11 +11,13 @@ class message extends Component
     
    public $projectName;
    public $projectMessage;
+   public $class;
 
-    public function __construct($projectMessage,$projectName)
+    public function __construct($projectMessage,$projectName,$class)
     {
         $this->projectMessage=$projectMessage;
         $this->projectName=$projectName;
+        $this->class=$class;
     }
 
 
