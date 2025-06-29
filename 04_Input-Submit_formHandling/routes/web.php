@@ -7,4 +7,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get("/input",[InputController],"handelForm");
+Route::view("/form","input");
+Route::post("input",[InputController::class,"handelForm"]);
