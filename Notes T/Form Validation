@@ -17,3 +17,27 @@ for show all erorr
 
 error uske sath dikane k leya
 @error("name"){{$message}} @enderror
+
+        $request->validate([
+            "name"=>"required | min:3 |string",
+            "email"=>"required",
+            "city"=>"required",
+        ],[
+            "name.required"=>"Plz Enter your Name",
+            "name.min"=>"the name atlest 3 word",
+            "name.array"=>"Plz Enter your Name in array form" ,
+            "email.required"=>"plz enter valid email"
+        ]);
+
+
+
+for get old value in input
+value="{{old("name")}}     
+
+for error chnge color 
+class="{{$errors->first("name") ? "error" : ""}}"
+
+ if (strtoupper($value) != $value) {
+            $fail(" the :attribute must be in upercase.");
+        }
+    }
