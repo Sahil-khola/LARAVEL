@@ -9,4 +9,4 @@ Route::get('/', function () {
 });
 
 Route::view("/user","form");
-Route::post("Adduser",[InputController::class,"handelForm"]);
+Route::post("/Adduser",[InputController::class,"handelForm"]);

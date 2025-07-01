@@ -12,6 +12,22 @@
             <input type="checkbox" name="skills[]" id="Python" value="Python">
             <label for="Python">Python</label>
 
+
+
+
+
+
+
+
+            label for="php">PHP</label>
+        <input type="checkbox" name="skills[]" id="Php" value="Php">
+
+        <label for="sql">SQL</label>
+        <input type="checkbox" name="skills[]" id="sql" value="Sql">
+
+        <label for="Laravel">Laravel</label>
+        <input type="checkbox" name="skills[]" id="Laravel" value="Laravel">
+        </div>
         </div>
 
         <div>
