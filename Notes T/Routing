@@ -12,9 +12,3 @@ Route::get("Name/{name}",function($name){
 Route::view("Home","/";)
 
 
-Preflix Routing
-Route::prefix("student")->group(function () {
-    Route::view("/home", "home");
-    Route::get("/show", [HomeController::class, "show"]);
-    Route::get("/save", [HomeController::class, "Save"]);
-});

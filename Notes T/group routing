@@ -1,0 +1,14 @@
+What is Prefix Routing?
+Prefix routing is a way to group routes together and give them a common prefix. This is often used for organization purposes.
+
+Route::prefix("student")->group(function () {
+    Route::view("/home", "home");
+    Route::get("/show", [HomeController::class, "show"]);
+    Route::get("/save", [HomeController::class, "Save"]);
+});
+inme student bar bar use hora tha to preflix use kia ha
+
+what is Controller grouping Routing?
+
+
+
