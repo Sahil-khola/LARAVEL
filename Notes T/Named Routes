@@ -1,0 +1,9 @@
+  function show($name){
+    // return redirect()->to("home/profile/user");
+    return to_route("direct",["name"=>"$name"]);
+  }
+
+ Route::view("home/profile/user/{name}","contact")->name("direct");
+Route::get("show",[UserController::class,"show"]);
+
+Route::view("home/about/user/name","home")->name("username")
