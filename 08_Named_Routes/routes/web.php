@@ -8,5 +8,4 @@ Route::get("/",function () {
     return view("home");
 });
 
-Route::view("form","form");
-Route::post("aser",[FormController::class,"formHandle"]);
+
