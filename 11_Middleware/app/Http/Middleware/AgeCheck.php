@@ -21,3 +21,4 @@ class AgeCheck
         return $next($request);
     }
 }
+
