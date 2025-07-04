@@ -4,3 +4,25 @@ if condition pass middleware will allow request otherwise middleware will block 
 
 Q:type of middleware
 A: global middleware , route middleware and group middleware
+
+
+
+Group Middleware----------.>
+
+// Route::view("/home","home")->middleware("check1");
+
+// Route::middleware("check1")->group(function(){
+// Route::view("/about","about");
+// Route::view("/contact","about");
+// Route::view("/help","about");
+// });
+
+
+Route middleware------>
+
+// Route::view("/home","home")->middleware(AgeCheck::class,CountryCheck::class);
+// Route::view("/about","about");
+
+
+global middleware-->
+$middlevale->append(checkbox;;class)
