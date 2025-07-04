@@ -6,4 +6,5 @@ we can make component and reuse it again and again,
 make component with command line
 
 php artisan make:component name
+<x-component />
 

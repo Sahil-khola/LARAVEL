@@ -1,0 +1,6 @@
+Q:What is Middleware?
+A: middleware is layer between application ans user and here we check condition and filter user request 
+if condition pass middleware will allow request otherwise middleware will block request
+
+Q:type of middleware
+A: global middleware , route middleware and group middleware
