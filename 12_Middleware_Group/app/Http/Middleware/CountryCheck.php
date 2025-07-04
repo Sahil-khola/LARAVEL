@@ -15,6 +15,9 @@ class CountryCheck
      */
     public function handle(Request $request, Closure $next): Response
     {
+        if ($request->country != "india") {
+            die("you cannot acess outside from india");
+        }
         return $next($request);
     }
 }
