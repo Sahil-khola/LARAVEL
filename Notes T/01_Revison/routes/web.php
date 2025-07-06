@@ -1,7 +1,10 @@
 <?php
 
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\Usercontroller as ControllersUsercontroller;
 use App\Http\Middleware\CheckAge;
 use App\Http\Middleware\CheckCountry;
+use Illuminate\Routing\RouteRegistrar;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -10,7 +13,21 @@ Route::get('/', function () {
 // Route::view("/home","home")->middleware(CheckAge::class);
 // Route::view("/about","about")->middleware(CheckAge::class,CheckCountry::class);
 
-Route::middleware("check1")->group(function(){
+// Route::middleware("check1")->group(function(){
+// Route::view("/home","home");
+// Route::view("/about","about");
+// });
+
 Route::view("/home","home");
-Route::view("/about","about");
-});
+Route::post("/user",[Usercontroller::class,"handelform"]);
+
+// Route::controller(controlername::class)->group(function(){
+
+// });
+
+
+// Route::view("/home/about/data","home")->name("fu");
+
+// Route::prefix("home")->group(function(){
+
+// })
