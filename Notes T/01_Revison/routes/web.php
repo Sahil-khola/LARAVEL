@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ModelController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\Usercontroller as ControllersUsercontroller;
 use App\Http\Middleware\CheckAge;
@@ -37,4 +38,6 @@ Route::get('/', function () {
 //     return view("about",["name"=>"$name"]);
 // });
 
-Route::get("/about",[Usercontroller::class,"handel"]);
+// Route::get("/about",[Usercontroller::class,"handel"]);
+
+Route::get("/model",[ModelController::class,"handelDb"]);
