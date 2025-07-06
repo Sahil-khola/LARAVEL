@@ -1,0 +1,7 @@
+What is Http Client?
+Http Client is a class which is used to send request to server and get response from server.
+
+user of http?
+1. to send request to server
+2. to get response from server
+
