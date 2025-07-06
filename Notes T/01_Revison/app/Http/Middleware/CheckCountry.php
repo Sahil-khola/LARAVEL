@@ -6,7 +6,7 @@ use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class CheckAge
+class CheckCountry
 {
     /**
      * Handle an incoming request.
@@ -15,7 +15,7 @@ class CheckAge
      */
     public function handle(Request $request, Closure $next): Response
     {
-        echo "echo from age check";
+        echo"<br> check country";
         return $next($request);
     }
 }

@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Middleware\CheckAge;
+use App\Http\Middleware\CheckCountry;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -13,7 +14,12 @@ return Application::configure(basePath: dirname(__DIR__))
     )
     ->withMiddleware(function (Middleware $middleware): void {
         //
-        $middleware->append(CheckAge::class);
+        // $middleware->append(CheckAge::class);
+        $middleware->appendToGroup("check1",[
+          CheckAge::class,
+          CheckCountry::class,
+        ]);
+
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //
