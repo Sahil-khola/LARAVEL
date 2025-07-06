@@ -18,8 +18,8 @@ Route::get('/', function () {
 // Route::view("/about","about");
 // });
 
-Route::view("/home","home");
-Route::post("/user",[Usercontroller::class,"handelform"]);
+// Route::view("/home","home");
+// Route::post("/user",[Usercontroller::class,"handelform"]);
 
 // Route::controller(controlername::class)->group(function(){
 
@@ -31,3 +31,10 @@ Route::post("/user",[Usercontroller::class,"handelform"]);
 // Route::prefix("home")->group(function(){
 
 // })
+
+// Route::view("/about/{name}","about");
+// Route::get("/about/{name}",function($name){
+//     return view("about",["name"=>"$name"]);
+// });
+
+Route::get("/about",[Usercontroller::class,"handel"]);

@@ -22,4 +22,8 @@ class Usercontroller extends Controller
         ]);
         return $request;
     }
+    function handel(){
+        $name = "sahil khola";
+        return view("about",["name"=>"$name"]);
+    }
 }
