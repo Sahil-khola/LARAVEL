@@ -9,8 +9,9 @@ use Illuminate\Support\Facades\DB;
 class ModelController extends Controller
 {
     function handelModel(){
-        $users = \App\Models\student::all();
-        $data = new \App\Models\student;
+        // $users = \App\Models\student::all();
+        $users = student::all();
+        $data = new student;
         echo " <h1> {$data->getName()} </h1>";
         // echo $data->getName();
         return view("home",["users"=>$users]);
