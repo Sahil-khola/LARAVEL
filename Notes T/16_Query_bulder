@@ -1,0 +1,8 @@
+What is query builder?
+Query builder is a tool that allows you to build queries to interact with the database.
+
+for example:
+
+select * from users where name = 'John'
+
+In this query, we are selecting all the columns from the users table where the name is equal to 'John'
