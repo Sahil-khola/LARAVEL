@@ -25,7 +25,6 @@ Route::get("/home", function(){
 );
 
 // route::redirect("/About","/Home");**
-
 // Route::view("home","about");
 
 Route::get("/User",[UserController::class,"getName"]);
