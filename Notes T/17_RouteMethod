@@ -1,0 +1,8 @@
+/*
+Route::get  for render page
+Route::view  for render page
+Route::post  for store data
+Route::put  for update data
+Route::delete  for delete data
+Route::patch  for update data
+*/
