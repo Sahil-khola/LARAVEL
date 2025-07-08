@@ -5,3 +5,9 @@ user of http?
 1. to send request to server
 2. to get response from server
 
+HTTPS Request Class?
+Ans: jab bhi m kisi web site ya form ko submit karte h to jab serve pe request jati hai 
+request->method
+request->path
+request->uri
+request->name
