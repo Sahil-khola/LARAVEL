@@ -11,5 +11,6 @@ class student extends Model
     protected $table = "information";
     function getName(){
         return "Sahil Khola";
+        
     }
 }
