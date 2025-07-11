@@ -7,6 +7,7 @@ return[
     "contact"=>"Contact",
     "help"=>"Help",
         "aboutPage"=>"this is About Page",
-    "subAboutPage"=>" Hello , This is About Page"
-]
+    "subAboutPage"=>" Hello , This is About Page",
+    "nameHeading"=>"hello i am :name , i am a web developer",
+    ]
 ?>
