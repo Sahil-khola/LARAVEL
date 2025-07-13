@@ -8,20 +8,17 @@ use Illuminate\View\Component;
 
 class message extends Component
 {
-    
-   public $projectName;
-   public $projectMessage;
-   public $class;
-
-    public function __construct($projectMessage,$projectName,$class)
+    public $message;
+    public $greets;
+    public function __construct($message, $greets)
     {
-        $this->projectMessage=$projectMessage;
-        $this->projectName=$projectName;
-        $this->class=$class;
+        $this->message = $message;
+        $this->greets = $greets;
     }
+    
 
-
-
+    
+    
     public function render(): View|Closure|string
     {
         return view('components.message');
