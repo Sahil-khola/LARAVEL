@@ -1,0 +1,48 @@
+What is Stub?
+stub is used to customize the model controler etc 
+php artisan stub:publish
+
+
+What is migration?
+php artisan make:migration create_users_table
+it is used to create table in database
+after create migration we need to run migration
+php artisan migrate
+php artisan migrate:refresh 
+php artisan migrate:rollback --step=2
+php artisan migrate:reset
+php artisan migrate --path=database/migrations/2014_10_12_000000_create_users_table.php
+
+
+
+What is seeder?
+php artisan make:seeder UsersTableSeeder
+after create seeder we need to run seeder
+php artisan db:seed --class=UsersTableSeeder
+
+what is layout Component?
+<x-layout>
+<x-slot name="header">
+</x-slot>
+</x-layout>
+
+
+What is template Component?
+@section('content')
+@yield('content')
+@endsection
+
+
+What is Accessor in Laravel?
+Accessor is used to get the value of the property
+Mutator is used to set the value of the property
+
+
+What is maintence mode?
+php artisan down
+php artisan up
+php artisan down --message="hello world"
+
+when the maintence mode is on the user can not access the website
+
+
